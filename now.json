@@ -10,6 +10,6 @@
       }
     }	
   ],
-  "name": "todomvc",
+  "name": "todomvc-typescript",
   "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }

@@ -1,4 +1,5 @@
 const withSass = require('@zeit/next-sass');
+const withTypescript = require('@zeit/next-typescript')
 const withOffline = require('next-offline');
 
 const nextConfig = {
@@ -25,4 +26,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withOffline(withSass(nextConfig));
+module.exports = withTypescript(withOffline(withSass(nextConfig)));
